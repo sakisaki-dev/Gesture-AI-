@@ -35,8 +35,6 @@ python your_app_name.py
 
 (Note: Replace your_app_name.py with the actual name of your Python file.)
 
-Open your web browser and navigate to the local server address, typically http://127.0.0.1:8001.
-
 🧠 How It Works
 The application utilizes the MediaPipe Hands solution to detect and track hand landmarks in real-time. It processes each frame from the webcam  OpenCV and then uses the coordinates of specific landmarks (e.g., the tip of the index finger) to control the pyautogui library, which moves the computer's mouse. The click action is triggered by detecting the distance between the index finger tip and the thumb tip, simulating a pinch gesture.
 
