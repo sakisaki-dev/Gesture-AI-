@@ -1,0 +1,6 @@
+Flask
+Flask-Cors
+opencv-python
+mediapipe
+pyautogui
+numpy
